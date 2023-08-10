@@ -55,18 +55,18 @@ export default [
       generatedCode: 'es2015',
       name: "bootstrap",
       globals: {
-        '@popperjs/core' : 'Popper', 
-        '@splidejs/splide' : 'Splide', 
-        'masonry-layout' : 'MasonryPlugin', 
+        '@popperjs/core' : 'Popper',
+        '@splidejs/splide' : 'Splide',
+        'masonry-layout' : 'MasonryPlugin',
         'accessible-autocomplete' : 'accessibleAutocomplete',
         'animejs/lib/anime.es.js' : 'anime',
         'video.js' : 'videojs'
       },
     },
     external: [
-      '@popperjs/core', 
-      '@splidejs/splide', 
-      'masonry-layout', 
+      '@popperjs/core',
+      '@splidejs/splide',
+      'masonry-layout',
       'accessible-autocomplete',
       'animejs/lib/anime.es.js',
       'video.js'
@@ -155,4 +155,18 @@ export default [
       }),
     ],
   },
+    // Entry for Regioni
+    {
+      input: 'src/scss/bootstrap-italia-regioni.scss',
+      output: {
+        dir: 'dist',
+      },
+      plugins: [
+        scss({
+          output: 'dist/css/bootstrap-italia-regioni.min.css',
+          outputStyle: 'compressed',
+          watch: 'src/scss',
+        }),
+      ],
+    },
 ]
