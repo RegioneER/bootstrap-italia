@@ -155,18 +155,18 @@ export default [
       }),
     ],
   },
-    // Entry for Regioni
-    {
-      input: 'src/scss/bootstrap-italia-regioni.scss',
-      output: {
-        dir: 'dist',
-      },
-      plugins: [
-        scss({
-          output: 'dist/css/bootstrap-italia-regioni.min.css',
-          outputStyle: 'compressed',
-          watch: 'src/scss',
-        }),
-      ],
+  // Entry for Regioni
+  {
+    input: 'src/scss/bootstrap-italia-regioni.scss',
+    output: {
+      dir: 'dist',
     },
+    plugins: [
+      scss({
+        output: 'dist/css/bootstrap-italia-regioni.min.css',
+        outputStyle: 'compressed',
+        watch: 'src/scss',
+      }),
+    ],
+  },
 ]
