@@ -6,6 +6,14 @@ title: Informazioni
 redirect_from: '/informazioni/'
 ---
 
+## Attenzione Questa documentazione è obsoleta
+
+Abbiamo ripristinato questa vecchia documentazione per chi ne avesse ancora bisogno, poiché non è più ufficialmente mantenuta.
+
+**Adesso Bootstrap Italia è alla versione 2.x** vi consigliamo di iniziare i nuovi progetti, partendo dal codice attuale. 
+
+Nel caso abbiate ancora progetti basati sul framework precedente (1.6.4), quello documentato in queste pagine, allora, fruitene liberamente. Grazie!
+
 ## Che cos'è Bootstrap Italia
 
 Bootstrap Italia - versione attuale **{{ site.current_version}}** - è una personalizzazione della libreria [Bootstrap {{ site.bootstrap_version }}](https://getbootstrap.com/docs/{{ site.bootstrap_minor }}/getting-started/introduction/) che tiene conto delle indicazioni in termini di design, usabilità ed accessibilità definite nelle [linee guida di design per i servizi web della Pubblica Amministrazione](https://docs.italia.it/italia/designers-italia/design-linee-guida-docs/), ed implementate nella versione più recente dello [UI Kit](https://github.com/italia/design-ui-kit).
