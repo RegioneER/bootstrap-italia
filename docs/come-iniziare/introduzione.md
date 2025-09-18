@@ -12,9 +12,7 @@ description: Come usare Bootstrap Italia nel tuo progetto
 
 ## Caricare la libreria
 
-Per utilizzare il codice compilato di Bootstrap Italia nel proprio progetto, è sufficiente scaricare ed includere nella pagina HTML alcuni file, tra cui un file CSS, un Javascript, i fonts e una SVG sprite, il tutto scaricabile qui:
-
-<a href="https://github.com/italia/bootstrap-italia/releases/download/v{{ site.current_version }}/bootstrap-italia.zip" class="btn btn-primary">Scarica Bootstrap Italia v{{ site.current_version }}</a>
+Per utilizzare il codice compilato di Bootstrap Italia nel proprio progetto, è sufficiente scaricare ed includere nella pagina HTML alcuni file, tra cui un file CSS, un Javascript, i fonts e una SVG sprite.
 
 {% capture callout %}
 
@@ -22,7 +20,7 @@ Per utilizzare il codice compilato di Bootstrap Italia nel proprio progetto, è 
 
 È sempre consigliabile utilizzare la **versione più recente della libreria e mantenerla aggiornata** sui propri progetti.
 
-Non occorre usare semplicemente la versione 1.0.0! La versione più recente tra le [release di progetto](https://github.com/italia/bootstrap-italia/releases) contiene anche tutti i miglioramenti e le correzioni disponibili fino ad oggi.
+Non occorre usare la versione v{{site.current_version}}! Ottieni la versione più recente tra le [release di progetto](https://github.com/italia/bootstrap-italia/releases) per ottenere anche tutti i miglioramenti e le correzioni disponibili fino ad oggi.
 {% endcapture %}{% include callout.html content=callout type="warning" %}
 
 Se si preferisce usare i file sorgente di Bootstrap Italia nel proprio progetto attraverso il package manager **npm**, si può fare riferimento alle [indicazioni di come utilizzare la libreria come dipendenza]({{ site.baseurl }}/docs/come-iniziare/introduzione#utilizzo-come-dipendenza).
