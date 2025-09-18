@@ -13,10 +13,10 @@
 
 
 <!-- Bootstrap core CSS -->
-<link href="/bootstrap-italia/dist/css/bootstrap-italia.min.css?202509180929" rel="stylesheet" />
+<link href="/bootstrap-italia/dist/css/bootstrap-italia.min.css?202509180949" rel="stylesheet" />
 <!-- Documentation extras -->
 
-<link href="/bootstrap-italia/docs/assets/dist/css/docs.min.css?202509180929" rel="stylesheet" />
+<link href="/bootstrap-italia/docs/assets/dist/css/docs.min.css?202509180949" rel="stylesheet" />
 
 <!-- Favicons -->
 <link rel="icon" href="/bootstrap-italia/favicon.ico" />
@@ -45,33 +45,21 @@
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
  
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Web Analytics Italia, Matomo Code -->
 <script>
-  // Disabilita tracciamento se il cookie cookies_consent non esiste
-  if (document.cookie.indexOf('cookies_consent=true') === -1) {
-    window['ga-disable-'] = true
-  }
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://ingestion.webanalytics.italia.it/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '44210']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
 </script>
-<script>
-  ;(function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r
-    ;(i[r] =
-      i[r] ||
-      function () {
-        ;(i[r].q = i[r].q || []).push(arguments)
-      }),
-      (i[r].l = 1 * new Date())
-    ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
-    a.async = 1
-    a.src = g
-    m.parentNode.insertBefore(a, m)
-  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga')
-
-  ga('create', '', 'auto')
-  ga('set', 'anonymizeIp', true)
-  ga('send', 'pageview')
-</script>
-<!-- End Google Analytics -->
+<!-- End Matomo Code -->
 
 
   </head>
@@ -775,7 +763,7 @@
 
 <script>
   window.__PUBLIC_PATH__ = '/bootstrap-italia/dist/fonts'
-</script><script src="/bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js?202509180929"></script>
+</script><script src="/bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js?202509180949"></script>
 
 <!-- Notification per tornare alla pagina principale -->
 <div class="notification dismissable with-icon" role="alert" id="notification-esempi" aria-labelledby="notification-esempi-title">
