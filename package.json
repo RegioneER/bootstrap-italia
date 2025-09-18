@@ -18,7 +18,7 @@
     "start": "gulp serve",
     "build": "gulp build",
     "documentation-build": "bundle exec jekyll build",
-    "documentation-serve": "bundle exec jekyll serve",
+    "documentation-serve": "bundle exec jekyll serve --livereload --incremental",
     "documentation-deploy-to-gh-pages": "JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_production.yml && gh-pages -d _site -m 'chore: update documentation'",
     "lint-js": "eslint ./src/js ./docs/assets/src/js/",
     "lint-scss": "stylelint ./src/scss/ ./docs/assets/src/scss/",
