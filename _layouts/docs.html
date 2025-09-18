@@ -19,6 +19,15 @@
         {% if page.toc %} {% include docs-toc.html %} {% endif %}
 
         <main class="col-12 col-md-9 col-xl-8 py-md-3 px-md-3 bd-content">
+
+          <!-- ALERT OBSOLESCENZA -->
+          <div class="alert alert-danger" role="alert">
+            <h4 class="alert-heading">Documentazione obsoleta</h4>
+            <p>Questa documentazione non è più mantenuta, ma è stata ripristinata per chi ne avesse ancora bisogno in vecchi progetti.</p>
+            <hr>
+            <p class="mb-0"><a href="https://italia.github.io/bootstrap-italia/">La versione più attuale di Bootstrap Italia è la versione 2.x</a>, inizia un nuovo progetto sfruttando il codice sorgente aggiornato.</p>
+          </div>
+
           <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
           <p class="bd-lead">{{ page.description | smartify }}</p>
           {{ content }}

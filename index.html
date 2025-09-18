@@ -7,16 +7,15 @@ layout: default
     <div class="container">
       <div class="row">
         <div class="main-content--panel col-md-10 col-lg-8 mb-5 p-4">
-          <p class="mt-5">
-            <strong>Attenzione Questa documentazione è obsoleta.</strong>
-          </p>
-          <p>
-            Abbiamo ripristinato questa vecchia documentazione per chi ne avesse ancora bisogno, poiché non è più ufficialmente mantenuta.
 
-            <strong>Adesso Bootstrap Italia è alla versione 2.x</strong> vi consigliamo di iniziare i nuovi progetti, partendo dal codice attuale. 
+          <!-- ALERT OBSOLESCENZA -->
+          <div class="alert alert-danger" role="alert">
+            <h4 class="alert-heading">Documentazione obsoleta</h4>
+            <p>Questa documentazione non è più mantenuta, ma è stata ripristinata per chi ne avesse ancora bisogno in vecchi progetti.</p>
+            <hr>
+            <p class="mb-0"><a href="https://italia.github.io/bootstrap-italia/">La versione più attuale di Bootstrap Italia è la versione 2.x</a>, inizia un nuovo progetto sfruttando il codice sorgente aggiornato.</p>
+          </div>
 
-            Nel caso abbiate ancora progetti basati sul framework precedente (1.6.4), quello documentato in queste pagine, allora, fruitene liberamente. Grazie!
-          </p>
           <p>
             La libreria <strong>Bootstrap Italia</strong> è il modo più semplice e sicuro per costruire interfacce web <strong>moderne</strong>,
             <strong>inclusive</strong> e <strong>semplici da mantenere</strong>.
@@ -40,7 +39,7 @@ layout: default
           </p>
           <div class="d-flex flex-column justify-content-center my-5">
             <a class="mt-2 mx-auto btn btn-primary" href="{{ site.baseurl }}/docs/come-iniziare/introduzione/">Come iniziare</a>
-            <div class="mx-auto text-muted">Versione corrente: <strong>v{{ site.current_version }}</strong></div>
+            <div class="mx-auto text-muted">Versione: <strong>v{{ site.current_version }}</strong></div>
           </div>
           <div class="cover-container my-4">
             <div class="cover-progress d-flex align-items-center justify-content-center">
