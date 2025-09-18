@@ -56,7 +56,7 @@ bootstrap_version: 4.6.1
 bootstrap_minor: 4.5
 
 # Analytics
-ga_property: ''
+matomo_id: '44210'
 
 # CDN links
 cdn:
